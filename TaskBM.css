@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+
+}
+
+header {
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: #372E7A;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: center;
+    display: flex;
+    gap: 42px;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+article {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    color: black;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #1F6E63;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+main, article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #9D2C4E;
+    padding: 42px 70px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
